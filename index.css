@@ -113,15 +113,6 @@
     background-color: white;
 }
 
-.wrapper {
-    width: 100%;
-    height: 65px; 
-    position: absolute;
-    right: 0;
-    top: 0;
-    
-}
-
 .wrapper span {
     position: relative;
     left: 87%;

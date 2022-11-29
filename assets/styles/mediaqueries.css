@@ -1,0 +1,77 @@
+
+@media screen and (min-width:1024px){
+    .elements{
+        padding: 10px;
+        flex-direction:column
+    }
+    .element{
+        width: 285px;
+    }
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.restaus{
+    margin-left: 1%;
+    width: 96%;
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper:hover span {
+    transition: 1s;
+    left: 73%;
+}
+.slide{
+    right: -50px;
+    width: 45px;
+}
+.wrapper span{
+    left: 260px;
+}
+}
+@media screen and (max-width:992px){
+    .elements{
+        width: 80%;
+        margin-left: 20px;
+    }
+    .wrapper span {
+        left: 93%;
+    }
+    .wrapper:hover span {
+        
+        left: 89%;
+    }
+    .wrapper{
+        width: 160%;
+    }
+
+
+}
+@media screen and (max-width:425px){
+    .wrapper:hover span {
+        
+        left: 91%;
+    }
+    .wrapper span {
+        position: relative;
+        left: 96%;
+        top: 25px;
+    }
+    .wrapper{
+        width: 300%;
+    }
+    .element{
+        width: 111%;
+        margin-left: -15px;
+    }
+    .elements{
+        width: 86%;
+        margin-left: 10px;
+    }
+
+}
