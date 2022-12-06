@@ -4,114 +4,134 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="assets/styles/index.css">
+    <link rel="stylesheet" href="assets/styles/carte-menu.css">
     <script src="https://kit.fontawesome.com/00438a5bc2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menus</title>
 </head>
 
 <body>
+    <div class="loader">
+        <i class="fa-solid fa-spinner fa-4x fa-spin"></i>
+    </div>
     <div class="flexevenly">
-        <a href="page_d'accueil.html" class="colorblack"><i class="fa-sharp fa-solid fa-arrow-left iconback"></i></a>
+        <a href="index.html" class="margicon colorblack"><i class="fa-sharp fa-solid fa-arrow-left iconback"></i></a>
         <img class="width" src="assets/images/logo/ohmyfood.png" alt="logoOhmyfood">
 
     </div>
     <div class="imgAccueil">
         <img class="img_menu" src="assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="">
     </div>
+    <section>
     <div class="restaus">
         <div class="titleMenu">
-            <h2>La palette du goût</h2>
-            <div id="heart">
-                <div class="fill"></div>
-                <div class="outline"></div>
+            <h2 class="fontfamilytitle">La palette du goût</h2>
+            <div class="flexend paddingcoeur">
+                <i class="fa-regular fa-heart margrightcoeur flexcenter"></i>       
+                <i class="fa-solid fa-heart jauge-remplissage1"></i>
             </div>
         </div>
-        <div class="flexrow">
+        <div class="fontfamilytext flexrow">
         <div class="elementMenu_1">
             <span>ENTRÉES</span>
             <div class="soulignement"></div>
             <ul class="elements">
                 <li class="element">
-                    <span class="bold">Fricassée d'escargots</span>
-                    <br>
-                    <div class="flexBetween">
-                        <span>au piment d'Espelette</span>
+                    <div class="containerA">
+                        <span class="bold">Fricassée d'escargots</span>
+                        <br>
+                        <div class="contenuText">
+                            <span class="fontsize">Au piment d'Espelette</span>
+                            <span>25€</span>
+                        </div>    
                     </div>
-                    <div class="wrapper">
-                        <span>25€</span>
+                    <div class="containerB">
                         <a href="#" class="slide">
                             <i class="fa-sharp fa-solid fa-circle-check"></i>
                         </a>
                     </div>
                 </li>
                 <li class="element">
-                    <span class="bold">Foie gras de canard mi-cuit</span>
-                    <br>
-                    <div class="flexBetween">
-                        <span>Et ses copeaux de truffe noir</span>
+                    <div class="containerA">
+                        <span class="bold">Foie gras de canard mi-cuit</span>
+                        <br>
+                        <div class="contenuText">
+                            <span class="fontsize">Et ses copeaux de truffe noir</span>
+                            <span>35€</span>
+                        </div>    
                     </div>
-                    <div class="wrapper">
-                        <span>35€</span>
+                    <div class="containerB">
                         <a href="#" class="slide">
                             <i class="fa-sharp fa-solid fa-circle-check"></i>
                         </a>
                     </div>
                 </li>
                 <li class="element">
-                    <span class="bold">Œuf au plat</span>
-                    <br>
-                    <div class="flexBetween">
-                        <span>Assaisonné à la truffe sur lit de caviar</span>
+                    <div class="containerA">
+                        <span class="bold">oeuf au plat</span>
+                        <br>
+                        <div class="contenuText">
+                            <span class="fontsize">assaisonné a la truffe sur lit de caviar</span>
+                            <span>20€</span>
+                        </div>    
                     </div>
-                    <div class="wrapper">
-                        <span>35€</span>
+                    <div class="containerB">
                         <a href="#" class="slide">
                             <i class="fa-sharp fa-solid fa-circle-check"></i>
                         </a>
                     </div>
                 </li>
+                
             </ul>
         </div>
-
         <div class="elementMenu_2">
             <span>PLATS</span>
             <div class="soulignement"></div>
             <ul class="elements">
                 <li class="element">
-                    <span class="bold">Filet de boeuf aux herbes</span>
-                    <br>
-                    <div class="flexBetween">
-                        <span>Accompagné de sa ribambelle de legume</span>
+                    <div class="containerA">
+                        <span class="bold">Fillet de boeuf aux herbes</span>
+                        <br>
+                        <div class="contenuText">
+                            <span class="fontsize">Accompagné de sa ribambelle de legumes</span>
+                            <span>40€</span>
+                        </div>    
                     </div>
-                    <div class="wrapper">
-                        <span>40€</span>
+                    <div class="containerB">
                         <a href="#" class="slide">
                             <i class="fa-sharp fa-solid fa-circle-check"></i>
                         </a>
                     </div>
                 </li>
                 <li class="element">
-                    <span class="bold">Parmentier de queue de boeuf</span>
-                    <br>
-                    <div class="flexBetween">
-                        <span>À la truffe noir sur sa purée de panais</span>
+                    <div class="containerA">
+                        <div class="bold">Parmentier de queue de boeuf</div>
+                        <br>
+                        <div class="contenuText">
+                            <span class="fontsize">A la truffe noire sur la purée de panais</span>
+                            <span>35€</span>
+                        </div>    
                     </div>
-                    <div class="wrapper">
-                        <span>35€</span>
+                    <div class="containerB">
                         <a href="#" class="slide">
                             <i class="fa-sharp fa-solid fa-circle-check"></i>
                         </a>
                     </div>
                 </li>
                 <li class="element">
-                    <span class="bold">Filet de turbot</span>
-                    <br>
-                    <div class="flexBetween">
-                        <span>Aux agrumes</span>
+                    <div class="containerA">
+                        <span class="bold">Filet de turbot</span>
+                        <br>
+                        <div class="contenuText">
+                            <span class="fontsize">Aux agrumes</span>
+                            <span>44€</span>
+                        </div>    
                     </div>
-                    <div class="wrapper">
-                        <span>44€</span>
+                    <div class="containerB">
                         <a href="#" class="slide">
                             <i class="fa-sharp fa-solid fa-circle-check"></i>
                         </a>
@@ -119,45 +139,50 @@
                 </li>
             </ul>
         </div>
-
         <div class="elementMenu_3">
             <span>DESSERTS</span>
             <div class="soulignement"></div>
             <ul class="elements">
                 <li class="element">
-                    <span class="bold">Paris-Brest</span>
-                    <br>
-                    <div class="flexBetween">
-                        <span>Revisité</span>
+                    <div class="containerA">
+                        <span class="bold">Paris-Brest</span>
+                        <br>
+                        <div class="contenuText">
+                            <span class="fontsize">Revisité</span>
+                            <span>18€</span>
+                        </div>    
                     </div>
-                    <div class="wrapper">
-                        <span>18€</span>
+                    <div class="containerB">
                         <a href="#" class="slide">
                             <i class="fa-sharp fa-solid fa-circle-check"></i>
                         </a>
                     </div>
                 </li>
                 <li class="element">
-                    <span class="bold">Macaron au chocolat d'exception</span>
-                    <br>
-                    <div class="flexBetween">
-                        <span>Et glace à la vanille de Madagascar</span>
+                    <div class="containerA">
+                        <div class="bold">Macaron au chocolat d'exception</div>
+                        <br>
+                        <div class="contenuText">
+                            <span class="fontsize">Et glace à la vanille de Madagascar</span>
+                            <span>22€</span>
+                        </div>    
                     </div>
-                    <div class="wrapper">
-                        <span>22€</span>
+                    <div class="containerB">
                         <a href="#" class="slide">
                             <i class="fa-sharp fa-solid fa-circle-check"></i>
                         </a>
                     </div>
                 </li>
                 <li class="element">
-                    <span class="bold">Mousse au chocolat</span>
-                    <br>
-                    <div class="flexBetween">
-                        <span>Au piment d'Espelette et à la truffe noire</span>
+                    <div class="containerA">
+                        <span class="bold">Mousse au chocolat</span>
+                        <br>
+                        <div class="contenuText">
+                            <span class="fontsize">Au piment d'Espelette et à la truffe noire</span>
+                            <span>23€</span>
+                        </div>    
                     </div>
-                    <div class="wrapper">
-                        <span>35€</span>
+                    <div class="containerB">
                         <a href="#" class="slide">
                             <i class="fa-sharp fa-solid fa-circle-check"></i>
                         </a>
@@ -168,16 +193,19 @@
         </div>
         </div>
         <div id="commander">
-            <button class="commander">Commander</button>
+            <button class="fontfamilytext commander">Commander</button>
         </div>
     </div>
+</section>
+    <footer>
     <div class="footer">
-        <h3>OhMyFood</h3>
-        <a href="#"><i class="fa-solid fa-utensils"></i> Proposer un restaurant</a>
-        <a href="#"><i class="fa-solid fa-handshake-angle"></i> Devenir partenaire</a>
-        <a href="#">Mentions légales</a>
-        <a href="#">Contact</a>
+        <h3 class="fontfamilytitle">OhMyFood</h3>
+        <a href="#" class="fontfamilytext"><i class="fa-solid fa-utensils"></i> Proposer un restaurant</a>
+        <a href="#" class="fontfamilytext"><i class="fa-solid fa-handshake-angle"></i> Devenir partenaire</a>
+        <a href="#" class="fontfamilytext">Mentions légales</a>
+        <a href="#" class="fontfamilytext">Contact</a>
     </div>
+    </footer>
 </body>
 
 </html>
