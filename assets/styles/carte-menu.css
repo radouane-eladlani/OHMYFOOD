@@ -377,7 +377,6 @@
     }
        
     .img_menu{
-        border-radius: 65px 65px 0px 0px;
         height: 500px;
         object-fit: cover;
         object-position: 50% 45%;
