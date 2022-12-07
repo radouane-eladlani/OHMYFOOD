@@ -122,6 +122,9 @@ margin-bottom: 45px;
 .backgroundhov:hover > i {
     color: #9356DC;
 }
+.blocnav:hover{
+    background-color: #ff79da2e;
+}
 .heightblocrestau{
     height: auto;
 }
