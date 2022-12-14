@@ -267,32 +267,7 @@
 .margrightcoeur{
     margin-right: -20px;
     }
-.loader{
-        background-color: #fff;
-        height: 100vh;
-        position: fixed;
-        inset: 0;
-        z-index: 1;
-        opacity: 0.9;
-        animation: chargement 500ms;
-        animation-fill-mode: forwards;
-        animation-delay: 3s;
-        transform-origin: top;
-        display: flex;
-        align-items: center;
-        justify-content:center;
-    } 
-@keyframes chargement {
-        from{
-            transform: scale(1);
-        }
-    
-        to{
-            transform: scale(0);
-        }
-    
-        
-    }
+
 @media screen and (min-width:1024px) {
     .elements{
         padding: 10px;

@@ -34,6 +34,9 @@
 .colorBlack{
     color: black;
 }
+.colorRose{
+    color: #9356DC
+}
 .decorationNone{
     text-decoration:none
 }
@@ -151,14 +154,15 @@ margin-bottom: 45px;
     border-radius: 15px 15px 0 0;
 }
 .blocnouveau{
-    border-radius: 0px 15px 4px 4px;
+   
     background-color: #99e2d0;
     width: 70px;
     height: 30px;
     position: absolute ;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;   
+    margin: 10px; 
 }
 .margbloc{
     margin-block: 0px ;
@@ -207,6 +211,7 @@ margin-bottom: 45px;
 .footer > a { 
   color: white; 
    text-decoration: none;} 
+   
 .loader{
     background-color: #fff;
     height: 100vh;
